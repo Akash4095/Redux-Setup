@@ -1,0 +1,41 @@
+.std-menu-container {
+  width: 100%;
+  background-color: #0070c3;
+}
+
+.std-menu-menuStructure {
+  width: 100%;
+}
+
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.std-menu-menuStructure-cell:first-child {
+  border-left: #1f2e3c solid 1px;
+}
+.std-menu-menuStructure-cell {
+  height: 22px;
+  /* border-left: #1F2E3C solid 1px; */
+  border-bottom: #ffffff solid 1px;
+  padding: 4px 0;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+  font-family: "proxima_nova_rgregular";
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cell {
+  display: table-cell;
+}
+
+.rlb-main-menu-color {
+  color: #ffffff;
+}
